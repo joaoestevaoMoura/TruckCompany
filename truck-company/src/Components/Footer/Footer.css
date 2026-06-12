@@ -1,0 +1,206 @@
+.footer{
+
+  margin-top: 0; /* remove qualquer margin superior */
+
+    background:#101010;
+
+    color:white;
+
+    width:100%;
+
+    margin:0;
+
+    padding:70px 80px;
+
+}
+
+
+.footer-container{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:0 auto;
+
+    display:grid;
+
+    grid-template-columns:
+    1.5fr 1fr 1fr 1fr;
+
+    gap:60px;
+
+}
+
+
+
+/* LOGO */
+
+.footer-brand h2{
+
+    font-size:25px;
+
+    margin:0;
+
+    font-weight:700;
+
+}
+
+
+.footer-brand h2 span{
+
+    color:#00b7ff;
+
+}
+
+
+
+.footer-brand small{
+
+    color:#aaa;
+
+    font-size:10px;
+
+}
+
+
+
+.footer-brand p{
+
+    margin-top:25px;
+
+    font-size:14px;
+
+    line-height:1.6;
+
+    color:#ddd;
+
+}
+
+
+
+/* REDES */
+
+.social{
+
+    margin-top:35px;
+
+    display:flex;
+
+    gap:25px;
+
+}
+
+
+
+.social a{
+
+    font-size:20px;
+
+    color:white;
+
+    text-decoration:none;
+
+    cursor:pointer;
+
+}
+
+
+
+/* COLUNAS */
+
+.footer-column{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+
+.footer-column h3{
+
+    font-size:14px;
+
+    color:#b5d9ff;
+
+    font-weight:500;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.footer-column a{
+
+    font-size:14px;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.2s;
+
+}
+
+
+
+.footer-column a:hover{
+
+    color:#00b7ff;
+
+}
+
+
+
+
+
+/* RESPONSIVO */
+
+
+@media(max-width:900px){
+
+
+.footer{
+
+    padding:50px 30px;
+
+}
+
+
+
+.footer-container{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+
+}
+
+
+
+
+@media(max-width:600px){
+
+
+.footer{
+
+    padding:40px 20px;
+
+}
+
+
+
+.footer-container{
+
+    grid-template-columns:1fr;
+
+}
+
+
+}
