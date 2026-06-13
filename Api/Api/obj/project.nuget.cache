@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1p/cUn5Fryk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jtzin\\OneDrive\\Área de Trabalho\\TruckCompany-main\\Api\\Api\\Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jtzin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.7\\microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
+    "C:\\Users\\jtzin\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
