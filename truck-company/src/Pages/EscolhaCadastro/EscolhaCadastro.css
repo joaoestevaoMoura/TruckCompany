@@ -1,0 +1,64 @@
+.escolha-cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+  background: #ffffff; /* fundo branco */
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.escolha-cadastro h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ff7f00; /* destaque em laranja */
+}
+
+.options {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option-card {
+  background-color: #f9f9f9;
+  color: #333;
+  border-radius: 12px;
+  padding: 25px;
+  width: 280px;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #ddd;
+}
+
+.option-card h2 {
+  margin: 15px 0 10px;
+  font-size: 20px;
+  color: #0a1a3a;
+}
+
+.option-card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.option-card .icon {
+  font-size: 40px;
+  color: #ff7f00;
+}
+
+.option-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.option-card.caminhoneiro {
+  border-top: 5px solid #e63946;
+}
+
+.option-card.empresa {
+  border-top: 5px solid #1f9d55;
+}

@@ -1,7 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
+  
+const navigate = useNavigate();
+
+
+
+function criarConta(){
+
+    navigate("/escolha-cadastro");
+
+}
   return (
     <header className="navbar">
 
@@ -45,8 +55,11 @@ const Navbar = () => {
 
 
       <div className="navbar-actions">
+        <button 
+           className="quote-btn"
+            onClick={criarConta}
+          >
 
-        <button className="quote-btn">
           CRIAR CONTA
         </button>
 
