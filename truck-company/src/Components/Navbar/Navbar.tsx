@@ -1,22 +1,61 @@
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <span className="navbar__logo">TruckCompany</span>
+    <header className="navbar">
 
-      <div className="navbar__menu">
-        <a href="/" className="navbar__link">Home</a>
-        <a href="/search" className="navbar__link">Search</a>
-        <a href="/about" className="navbar__link">About</a>
+      <div className="navbar-logo">
+
+        <div className="logo-icon">
+          T
+        </div>
+
+        <h2>
+          TRUCK <span>COMPANY</span>
+        </h2>
+
       </div>
 
-      <div className="navbar__actions">
-        <a href="/login" className="navbar__login">Log in</a>
-        <a href="/register" className="navbar__signup">Get started</a>
+
+      <nav className="navbar-links">
+
+        <Link to="/">
+          INÍCIO
+        </Link>
+
+        <Link to="/servicos">
+          SERVIÇOS
+        </Link>
+
+        <Link to="/frota">
+          FROTA
+        </Link>
+
+        <Link to="/rastreamento">
+          RASTREAMENTO
+        </Link>
+
+        <Link to="/contato">
+          CONTATO
+        </Link>
+
+      </nav>
+
+
+
+      <div className="navbar-actions">
+
+        <button className="quote-btn">
+          CRIAR CONTA
+        </button>
+
       </div>
-    </nav>
+
+
+    </header>
   );
 };
+
 
 export default Navbar;
