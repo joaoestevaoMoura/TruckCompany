@@ -1,8 +1,9 @@
 .escolha-cadastro {
+  top:101px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 90vh;
+  min-height: 70vh;
   background: #ffffff; /* fundo branco */
   color: #333;
   font-family: 'Arial', sans-serif;

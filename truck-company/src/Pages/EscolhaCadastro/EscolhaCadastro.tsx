@@ -2,11 +2,11 @@ import "./EscolhaCadastro.css";
 import { Link } from "react-router-dom";
 import { FaTruck, FaBuilding } from "react-icons/fa"; // ícones
 
+
 const EscolhaCadastro = () => {
   return (
     <div className="escolha-cadastro">
       <h1>Vamos lá, o que deseja fazer?</h1>
-
       <div className="options">
         {/* Caminhoneiro */}
         <Link to="/cadastro-caminhoneiro" className="option-card caminhoneiro">
